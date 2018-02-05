@@ -29,6 +29,9 @@
 				<!-- TestNG suite XML files -->
 					<suiteXmlFile>testng.xml</suiteXmlFile>
 				</suiteXmlFiles>
+				 <listeners>
+        <listener class-name="Utility.TestListener" />
+  </listeners>
 	
 			</configuration>
 	</plugin>
